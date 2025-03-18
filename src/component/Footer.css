@@ -1,0 +1,50 @@
+.footer {
+    padding: 60px 0px;
+    text-align: center;
+    background-color: #f8f8f8;
+    color: #000; /* Ensure text color is visible on light background */
+}
+
+.footer-logo img {
+    max-width: 280px;
+    margin-bottom: 20px;
+}
+.email{
+    width: 100%;
+    display: flex;
+    text-align: center;
+    align-items: center;
+}
+
+.footer-contact p {
+    margin: 5px 0;
+}
+
+.contact-info {
+    display: flex;
+    justify-content: center;
+    gap: 20px;
+}
+.info-d{
+    color: red;
+}
+
+.footer-border {
+    border-top: 2px solid #ccc;
+    margin: 20px 0;
+}
+
+.footer-copyright p {
+    margin: 0;
+    font-size: 0.9em;
+    color: #666;
+}
+
+/* Add media query for smaller screens */
+@media (max-width: 600px) {
+    .contact-info {
+        flex-direction: column;
+        align-items: center;
+        gap: 8px;
+    }
+}

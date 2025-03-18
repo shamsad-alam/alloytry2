@@ -1,0 +1,52 @@
+.product-detail {
+    width: 100%;
+    margin: 0 auto;
+}
+
+
+.tabs {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 20px;
+    justify-content: space-between;
+    margin-bottom: 20px;
+}
+
+
+.tab-button {
+    width: 200px;
+    padding: 10px 20px;
+    border: none;
+    background-color: #f1f1f1;
+    cursor: pointer;
+    transition: background-color 0.3s;
+}
+
+.tab-button.active {
+    background-color: red;
+    color: white;
+}
+
+.tab-content {
+    padding: 20px;
+    border: 1px solid #ddd;
+    background-color: #fff;
+}
+
+.tab-content h2 {
+    color: red;
+}
+
+@media screen and (max-width: 768px) {
+    .tabs {
+        justify-content: space-evenly;
+    }
+
+    .tab-content {
+        border: none;
+    }
+
+    .tab-button {
+        width: 160px;
+    }
+}

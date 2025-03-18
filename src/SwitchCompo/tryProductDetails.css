@@ -1,0 +1,190 @@
+/* ======================= product table */
+.product-img-div {
+    display: flex;
+    justify-content: center;
+}
+
+.productimg {
+    width: 300px;
+    object-fit: cover;
+}
+
+.product-detail {
+    margin-bottom: 40px;
+
+}
+
+.home-button {
+    width: 200px;
+    border: none;
+    padding: 10px 20px;
+}
+
+.property-tabs {
+    display: flex;
+    justify-content: flex-start;
+    gap: 20px;
+}
+
+.property-tab-button {
+    padding: 10px 20px;
+    border: 1px solid gray;
+    /* margin-top: 40px; */
+}
+
+.longtable {
+    margin: 20px 0px;
+}
+
+.tableTile {
+    font-size: 26px;
+    font-weight: 600;
+    margin-top: 40px;
+    color: #ff9900;
+}
+
+.productDeTile {
+    margin-bottom: 30px;
+}
+
+.tabpara2 {
+    margin-top: 20px;
+}
+
+.tabTable {
+    font-size: 14px;
+}
+
+.tabTable td:first-child {
+    width: 23%;
+    color: #ff9900;
+    text-decoration: underline;
+    text-decoration-color: #ff9900;
+}
+
+.tabLink1 {
+    color: #ff9900;
+}
+
+.tabChH1 {
+    font-size: 22px;
+    font-weight: 600;
+    margin-top: 30px;
+    color: #ff9900;
+}
+
+.tabChH21 {
+    font-size: 18px;
+    font-weight: 550;
+    margin-bottom: 7px;
+}
+
+.tabChpara1 {
+    margin-top: 5px;
+}
+
+.table-responsive {
+    width: 100%;
+    overflow-x: auto;
+    /* Add horizontal scroll */
+    -webkit-overflow-scrolling: touch;
+    /* Smooth scrolling for iOS devices */
+}
+
+.table-title {
+    font-size: 22px;
+    line-height: 32px;
+    color: rgb(36, 36, 36);
+    margin-bottom: 10px;
+}
+
+.table-container {
+    width: 100%;
+    overflow-x: auto;
+    margin: 20px auto;
+    padding: 0 10px;
+}
+
+
+table {
+    width: 100%;
+    border-collapse: collapse;
+    margin: auto;
+}
+
+th,
+td {
+    border: 1px solid #ccc;
+    padding: 10px;
+}
+
+th {
+    background-color: #ff9900;
+    color: white;
+    font-weight: bold;
+}
+
+tr:nth-child(even) {
+    background-color: #f2f2f2;
+}
+
+tr:hover {
+    background-color: #dcdcdc;
+}
+
+@media (max-width: 768px) {
+    .productDelimg {
+        order: -1;
+    }
+}
+
+/*============================ table responsive new css ===================== */
+@media (max-width: 768px) {
+    .table-container {
+        padding: 0px;
+    }
+
+    .tab-content {
+        padding: 0px;
+    }
+
+    .property-tabs {
+        display: flex;
+        justify-content: flex-start;
+        gap: 10px;
+    }
+
+    .property-tab-button {
+        padding: 10px 10px;
+    }
+
+    .longtable2 {
+        font-size: 10px;
+    }
+
+    .longtable thead {
+        display: none;
+        /* Hide table headers on mobile */
+    }
+
+    .longtable tr {
+        margin-bottom: 50px !important;
+    }
+
+    .longtable td {
+        text-align: left;
+        display: flex;
+        justify-content: space-between;
+        padding: 10px;
+        border-bottom: 1px solid #ddd;
+    }
+
+    .longtable td:before {
+        content: attr(data-label);
+        /* Add column header as label */
+        font-weight: bold;
+        width: 50%;
+        display: inline-block;
+        color: #ff9900;
+    }
+}

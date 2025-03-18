@@ -1,0 +1,27 @@
+.about-content {
+    display: flex;
+    justify-content: space-between; /* Adjusted to space-between for better alignment */
+    align-items: center; /* Added to align items in a single line */
+    gap: 40px;
+}
+
+.about-image, .about-text {
+    width: 50%; /* Set equal width for image and content */
+}
+
+.about-title {
+    padding-bottom: 10px;
+    color: red;
+    font-size: 30px;
+    border-bottom: 2px solid gray;
+}
+
+@media screen and (max-width: 768px) {
+    .about-content {
+        flex-direction: column; /* Stack items vertically on mobile */
+        align-items: flex-start; /* Align items to the start */
+    }
+    .about-image, .about-text {
+        width: 100%; /* Full width for image and content on mobile */
+    }
+}
