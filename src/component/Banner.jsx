@@ -12,7 +12,7 @@ function Hero() {
                 </div>
                 <div className="carousel-inner">
                     <div className="carousel-item active">
-                        <img src="/images/banner-1.jpg" className="d-block w-100" alt="Banner 1" />
+                        <img src="http://localhost:3000/images/banner-1.jpg" className="d-block w-100" alt="Banner 1" />
                         <div className="carousel-caption d-md-block">
                             <h5>Smith Alloy Wire</h5>
                             <p className='heroPara'>Smith Alloy is used for electric heating elements in home appliances and industrial furnaces.</p>
