@@ -1,15 +1,15 @@
 {
   "files": {
-    "main.css": "/shamsad-alam/alloytry2/static/css/main.d3023d98.css",
-    "main.js": "/shamsad-alam/alloytry2/static/js/main.26800fc0.js",
-    "static/js/453.61da390f.chunk.js": "/shamsad-alam/alloytry2/static/js/453.61da390f.chunk.js",
-    "index.html": "/shamsad-alam/alloytry2/index.html",
-    "main.d3023d98.css.map": "/shamsad-alam/alloytry2/static/css/main.d3023d98.css.map",
-    "main.26800fc0.js.map": "/shamsad-alam/alloytry2/static/js/main.26800fc0.js.map",
-    "453.61da390f.chunk.js.map": "/shamsad-alam/alloytry2/static/js/453.61da390f.chunk.js.map"
+    "main.css": "/alloytry2/static/css/main.d3023d98.css",
+    "main.js": "/alloytry2/static/js/main.a93d1444.js",
+    "static/js/453.61da390f.chunk.js": "/alloytry2/static/js/453.61da390f.chunk.js",
+    "index.html": "/alloytry2/index.html",
+    "main.d3023d98.css.map": "/alloytry2/static/css/main.d3023d98.css.map",
+    "main.a93d1444.js.map": "/alloytry2/static/js/main.a93d1444.js.map",
+    "453.61da390f.chunk.js.map": "/alloytry2/static/js/453.61da390f.chunk.js.map"
   },
   "entrypoints": [
     "static/css/main.d3023d98.css",
-    "static/js/main.26800fc0.js"
+    "static/js/main.a93d1444.js"
   ]
 }
