@@ -1,15 +1,15 @@
 {
   "files": {
     "main.css": "/alloytry2/static/css/main.d3023d98.css",
-    "main.js": "/alloytry2/static/js/main.a93d1444.js",
+    "main.js": "/alloytry2/static/js/main.9734bb71.js",
     "static/js/453.61da390f.chunk.js": "/alloytry2/static/js/453.61da390f.chunk.js",
     "index.html": "/alloytry2/index.html",
     "main.d3023d98.css.map": "/alloytry2/static/css/main.d3023d98.css.map",
-    "main.a93d1444.js.map": "/alloytry2/static/js/main.a93d1444.js.map",
+    "main.9734bb71.js.map": "/alloytry2/static/js/main.9734bb71.js.map",
     "453.61da390f.chunk.js.map": "/alloytry2/static/js/453.61da390f.chunk.js.map"
   },
   "entrypoints": [
     "static/css/main.d3023d98.css",
-    "static/js/main.a93d1444.js"
+    "static/js/main.9734bb71.js"
   ]
 }
