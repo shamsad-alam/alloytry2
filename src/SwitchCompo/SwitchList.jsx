@@ -2,12 +2,12 @@ import React from "react";
 import { useNavigate } from "react-router-dom"; // Import useNavigate for navigation
 import "../component/Product.css"; // Assuming you have a CSS file for styling
 const products = [
-    { id: 1, name: "SmithAlloy 80", image: "/images/product1.jpg" },
-    { id: 2, name: "SmithAlloy 60", image: "/images/product2.jpg" },
-    { id: 3, name: "SmithAlloy 255A", image: "/images/product1.jpg" },
-    { id: 4, name: "SmithAlloy 214R", image: "/images/product2.jpg" },
-    { id: 5, name: "SmithAlloy 235D", image: "/images/product1.jpg" },
-    { id: 6, name: "Product 6", image: "/images/product2.jpg" },
+    { id: 1, name: "SmithAlloy 80", image: `${process.env.PUBLIC_URL}/images/product1.jpg` },
+    { id: 2, name: "SmithAlloy 60", image: `${process.env.PUBLIC_URL}/images/product2.jpg` },
+    { id: 3, name: "SmithAlloy 255A", image: `${process.env.PUBLIC_URL}/images/product1.jpg` },
+    { id: 4, name: "SmithAlloy 214R", image: `${process.env.PUBLIC_URL}/images/product2.jpg` },
+    { id: 5, name: "SmithAlloy 235D", image: `${process.env.PUBLIC_URL}/images/product1.jpg` },
+    { id: 6, name: "Product 6", image: `${process.env.PUBLIC_URL}/images/product2.jpg` },
 ];
 
 function SwitchList() {

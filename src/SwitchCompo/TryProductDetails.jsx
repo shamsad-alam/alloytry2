@@ -7,7 +7,7 @@ import './tryProductDetails.css';
 const products = [
     {
         id: 1,
-        image: "/images/product2.jpg",
+        image: `${process.env.PUBLIC_URL}/images/product2.jpg`,
         title: "SmithAlloy 80",
         description1: "SmithAlloy 80 wire is an austenitic nickel-chromium alloy (NiCr alloy) designed for use at temperatures up to 1200°C (2190°F). This alloy is characterized by high resistivity, excellent oxidation resistance, and outstanding form stability. It maintains good ductility after use and offers excellent weldability.",
         description2: "SmithAlloy 80 is widely used in electric heating elements for home appliances and industrial furnaces. Typical applications include flat irons, ironing machines, water heaters, plastic molding dies, soldering irons, metal-sheathed tubular elements, and cartridge elements.",
@@ -612,7 +612,7 @@ function TryProductDetails() {
                             <p>{activeProduct.description2}</p>
                         </div>
                         <div className="col-md-5 product-img-div">
-                            <img className="productimg" src="images/product2.jpg" alt="" />
+                            <img className="productimg" src={activeProduct.image} alt="" />
                         </div>
                     </div>
 

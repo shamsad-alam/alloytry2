@@ -6,7 +6,7 @@ function Footer() {
         <footer className="footer">
             <div className="container">
                 <div className="footer-logo">
-                    <img src="http://localhost:3000/images/smith-alloy-logo.png" alt="Logo" />
+                    <img src={`${process.env.PUBLIC_URL}/images/smith-alloy-logo.png`} alt="Logo" />
                 </div>
                 <div className="footer-contact">
                     <p className="contact-info">

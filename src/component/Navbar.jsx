@@ -32,7 +32,7 @@ function Navbar() {
                 <div className="container">
                     <div className='navitems'>
                         <a className="navbar-brand" href="#">
-                            <img src="/images/smith-alloy-logo.png" alt="smithalloy logo" />
+                            <img src={`${process.env.PUBLIC_URL}/images/smith-alloy-logo.png`} alt="smithalloy logo" />
                         </a>
                         <div className="navlink">
                             <button className="getInTouch" onClick={handleButtonClick}>Get In Touch</button>

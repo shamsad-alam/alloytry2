@@ -12,21 +12,21 @@ function Hero() {
                 </div>
                 <div className="carousel-inner">
                     <div className="carousel-item active">
-                        <img src="http://localhost:3000/images/banner-1.jpg" className="d-block w-100" alt="Banner 1" />
+                        <img src={`${process.env.PUBLIC_URL}/images/banner-1.jpg`} className="d-block w-100" alt="Banner 1" />
                         <div className="carousel-caption d-md-block">
                             <h5>Smith Alloy Wire</h5>
                             <p className='heroPara'>Smith Alloy is used for electric heating elements in home appliances and industrial furnaces.</p>
                         </div>
                     </div>
                     <div className="carousel-item">
-                        <img src="/images/banner-2.jpg" className="d-block w-100" alt="Banner 2" />
+                        <img src={`${process.env.PUBLIC_URL}/images/banner-2.jpg`} className="d-block w-100" alt="Banner 2" />
                         <div className="carousel-caption d-md-block">
                             <h5>Smith Alloy Strip</h5>
                             <p className='heroPara'>Smith Alloy is used in electric heating element material in domestic appliances.</p>
                         </div>
                     </div>
                     <div className="carousel-item">
-                        <img src="/images/banner-1.jpg" className="d-block w-100" alt="Banner 3" />
+                        <img src={`${process.env.PUBLIC_URL}/images/banner-1.jpg`} className="d-block w-100" alt="Banner 3" />
                         <div className="carousel-caption d-md-block">
                             <h5>Smith Alloy 255A</h5>
                             <p className='heroPara'>This is a high-temperature FeCrAl alloy for element temperatures up to 1300°C.</p>
